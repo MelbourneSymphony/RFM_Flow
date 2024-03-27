@@ -105,7 +105,7 @@ rgba_codes = [
     'rgba(255,162,0,0.4)',   # 0 Loyal Purch
 ]
 #Sankey Diagram Code
-fig = go.Figure(data=[go.Sankey(
+fig2 = go.Figure(data=[go.Sankey(
     node = dict(
       pad = 15,
       thickness = 20,
@@ -122,7 +122,7 @@ fig = go.Figure(data=[go.Sankey(
 
   ))])
 
-fig.update_layout(title_text="RFM Customer Minor Flow", font_size=10,width=1000, height=600,
+fig2.update_layout(title_text="RFM Customer Minor Flow", font_size=10,width=1000, height=600,
 
   xaxis={
   'showgrid': False, # thin lines in the background
@@ -136,7 +136,7 @@ fig.update_layout(title_text="RFM Customer Minor Flow", font_size=10,width=1000,
   }, plot_bgcolor='rgba(0,0,0,0)')
 
 for x_coordinate, column_name in enumerate(["2023 Quarter 3","2023 Quarter 4"]):
-    fig.add_annotation(
+    fig2.add_annotation(
           x=x_coordinate,#Plotly recognizes 0-5 to be the x range.
 
           y=1.075,#y value above 1 means above all nodes
@@ -151,4 +151,4 @@ for x_coordinate, column_name in enumerate(["2023 Quarter 3","2023 Quarter 4"]):
               ),
           align="left",
           )
-fig.show()
+st.plotly_chart(fig2, use_container_width=True)
