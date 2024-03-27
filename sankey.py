@@ -148,3 +148,5 @@ for x_coordinate, column_name in enumerate(["2023 Quarter 3","2023 Quarter 4"]):
           align="left",
           )
 st.plotly_chart(fig2, use_container_width=True)
+
+st.write("to go back to the main dashboard click [here](https://rfmlabels-t7qm6v74os.streamlit.app/)")
