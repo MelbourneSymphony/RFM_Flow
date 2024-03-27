@@ -72,7 +72,7 @@ for x_coordinate, column_name in enumerate(["2023 Quarter 3","2023 Quarter 4"]):
               ),
           align="left",
           )
-fig.show()
+st.plotly_chart(fig, use_container_width=True)
 #sankey 2
 df2= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/sankey_minor_flow.csv')
 unique_source_target2 = list(pd.unique(df2[['Source', 'Target']].values.ravel('K')))
