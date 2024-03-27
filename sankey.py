@@ -7,7 +7,7 @@ st.set_page_config(layout="centered")
 st.set_option('deprecation.showPyplotGlobalUse', True)
 st.title("MSO RFM Segmentation Flows")
 
-df= pd.read_csv('/content/rfm sankey.csv')
+df= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/rfm%20sankey.csv')
 unique_source_target = list(pd.unique(df[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target)}
 df['Source'] = df['Source'].map(mapping_dict)
