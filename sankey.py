@@ -68,7 +68,7 @@ for x_coordinate, column_name in enumerate(["2023 Quarter 3","2023 Quarter 4"]):
           )
 fig.show()
 #sankey 2
-df2= pd.read_csv('/content/sankey_minor_flow.csv')
+df2= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/sankey_minor_flow.csv')
 unique_source_target2 = list(pd.unique(df2[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target2)}
 df2['Source'] = df2['Source'].map(mapping_dict)
