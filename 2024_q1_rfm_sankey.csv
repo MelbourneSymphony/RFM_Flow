@@ -1,0 +1,70 @@
+﻿Source,Target,values,link_colour,source_colour
+New Customer,Loyal Purchaser q4,3,"rgba(249,65,68,0.4)",#F94144
+New Customer,New Customer q4,20309,"rgba(249,65,68,0.4)",#F94144
+New Customer,Faithful q4,469,"rgba(249,65,68,0.4)",#F94144
+New Customer,Slipping q4,13309,"rgba(249,65,68,0.4)",#F94144
+New Customer,Affluent q4,36,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,New Customer q1,30598,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,Slipping q1,15241,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,Affluent q1,1087,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,Top Tier q1,134,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,Faithful q1,257,"rgba(249,65,68,0.4)",#F94144
+Not Previously purchased,Faithful q4,100,"rgba(116,154,127,0.4)",#749A7F
+Not Previously purchased,Affluent q4,8,"rgba(116,154,127,0.4)",#749A7F
+Not Previously purchased,Top Tier q4,5,"rgba(116,154,127,0.4)",#749A7F
+Not Previously purchased,New Customer q4,25112,"rgba(116,154,127,0.4)",#749A7F
+Not Previously purchased,Loyal Purchaser q4,17,"rgba(116,154,127,0.4)",#749A7F
+Not previously purchased q4,Top Tier q1,10,"rgba(116,154,127,0.4)",#749A7F
+Not previously purchased q4,Faithful q1,30,"rgba(116,154,127,0.4)",#749A7F
+Not previously purchased q4,Affluent q1,53,"rgba(116,154,127,0.4)",#749A7F
+Not previously purchased q4,New Customer q1,12601,"rgba(116,154,127,0.4)",#749A7F
+Not previously purchased q4,Loyal Purchaser q1,2,"rgba(116,154,127,0.4)",#749A7F
+Top Tier,Top Tier q4,235,"rgba(88,176,214,0.4)",#58B0D6
+Top Tier q4,Top Tier q1,409,"rgba(88,176,214,0.4)",#58B0D6
+Affluent,Slipping q4,7,"rgba(249,199,79,0.4)",#F9C74F
+Affluent,Top Tier q4,128,"rgba(249,199,79,0.4)",#F9C74F
+Affluent,Affluent q4,385,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q4,Top Tier q1,9,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q4,Slipping q1,1,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q4,Affluent q1,1168,"rgba(249,199,79,0.4)",#F9C74F
+Faithful,Affluent q4,157,"rgba(243,114,44,0.4)",#F3722C
+Faithful,Loyal Purchaser q4,75,"rgba(243,114,44,0.4)",#F3722C
+Faithful,Faithful q4,2322,"rgba(243,114,44,0.4)",#F3722C
+Faithful,Slipping q4,397,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Faithful q1,1037,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Affluent q1,1033,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Slipping q1,469,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Top Tier q1,580,"rgba(243,114,44,0.4)",#F3722C
+Loyal Purchaser,Slipping q4,50,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Affluent q4,555,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Top Tier q4,41,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Loyal Purchaser q4,298,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Faithful q4,69,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Top Tier q1,57,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Slipping q1,37,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Affluent q1,37,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Loyal Purchaser q1,317,"rgba(144, 190, 109,0.4)",#90BE6D
+Slipping,Slipping q4,17051,"rgba(87, 117, 144,0.4)",#577590
+Slipping,Faithful q4,37,"rgba(87, 117, 144,0.4)",#577590
+Slipping,New Customer q4,906,"rgba(87, 117, 144,0.4)",#577590
+Slipping,Lost Touch q4,180,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Slipping q1,23149,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Affluent q1,129,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Lost Touch q1,2503,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,New Customer q1,1242,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Top Tier q1,25,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Faithful q1,70,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Loyal Purchaser q1,5,"rgba(87, 117, 144,0.4)",#577590
+Lost Touch,Lost Touch q4,35738,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,Dropped Outside Timeframe,8940,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,Faithful q4,122,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,Loyal Purchaser q4,4,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,Affluent q4,6,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,New Customer q4,990,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Dropped Outside Timeframe q1,15266,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Lost Touch q1,20483,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Faithful q1,28,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Loyal Purchaser q1,2,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Affluent q1,54,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,New Customer q1,676,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Top Tier q1,7,"rgba(39, 125, 161,0.4)",#277DA1
