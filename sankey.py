@@ -77,7 +77,7 @@ links_dict2 = df2.to_dict(orient='list')
 
 colours2 =['#58B0D6','#58B0D6','#F9C74F','#F9C74F','#F3722C','#F3722C','#90BE6D','#90BE6D','#58B0D6','#577590','#577590','#F9C74F','#F3722C','#90BE6D']
 link_colours_minor = df2['link_colour'].to_list()
-]
+
 #Sankey Diagram Code
 fig2 = go.Figure(data=[go.Sankey(
     node = dict(
