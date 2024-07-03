@@ -13,7 +13,8 @@ mapping_dict = {k: v for v, k in enumerate(unique_source_target)}
 df['Source'] = df['Source'].map(mapping_dict)
 df['Target'] = df['Target'].map(mapping_dict)
 links_dict = df.to_dict(orient='list')
-color_dict = ['#F94144','#F94144','#749A7F','#749A7F','#58B0D6','#58B0D6','#F9C74F','#F9C74F','#F3722C','#F3722C','#90BE6D','#90BE6D','#577590','#577590','#277DA1','#277DA1','#F94144','#577590','#F9C74F','#58B0D6','#F3722C','#90BE6D','#277DA1','#277DA1','#277DA1']
+###color_dict = ['#F94144','#F94144','#749A7F','#749A7F','#58B0D6','#58B0D6','#F9C74F','#F9C74F','#F3722C','#F3722C','#90BE6D','#90BE6D','#577590','#577590','#277DA1','#277DA1','#F94144','#577590','#F9C74F','#58B0D6','#F3722C','#90BE6D','#277DA1','#277DA1','#277DA1']
+color_dict = df['source_colour'].tolist()
 
 color_dict_link = df['link_colour'].tolist()
 
