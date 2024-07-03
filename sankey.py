@@ -50,7 +50,7 @@ fig.update_layout(title_text="RFM Customer Flow", font_size=10,width=1000, heigh
   'visible': False,  # numbers below
   }, plot_bgcolor='rgba(0,0,0,0)')
 
-for x_coordinate, column_name in enumerate(["2023 Quarter 3","2023 Quarter 4","2024 Quarter 1"]):
+for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","July 2024"]):
     fig.add_annotation(
           x=x_coordinate,#Plotly recognizes 0-5 to be the x range.
 
