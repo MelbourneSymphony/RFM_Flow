@@ -13,8 +13,41 @@ mapping_dict = {k: v for v, k in enumerate(unique_source_target)}
 df['Source'] = df['Source'].map(mapping_dict)
 df['Target'] = df['Target'].map(mapping_dict)
 links_dict = df.to_dict(orient='list')
-###color_dict = ['#F94144','#F94144','#749A7F','#749A7F','#58B0D6','#58B0D6','#F9C74F','#F9C74F','#F3722C','#F3722C','#90BE6D','#90BE6D','#577590','#577590','#277DA1','#277DA1','#F94144','#577590','#F9C74F','#58B0D6','#F3722C','#90BE6D','#277DA1','#277DA1','#277DA1']
-color_dict = df['source_colour'].tolist()
+color_dict = ['#f94144',  # New Customer
+ '#f94144',  # New Customer q4
+ '#749a7f',  # Not Previously purchased
+ '#749a7f',  # Not previously purchased q4
+ '#58b0d6',  # Top Tier
+ '#58b0d6',  # Top Tier q4
+ '#f9c74f',  # Affluent
+ '#f9c74f',  # Affluent q4
+ '#f3722c',  # Faithful
+ '#f3722c',  # Faithful q4
+ '#90be6d',  # Loyal Purchaser
+ '#90be6d',  # Loyal Purchaser q4
+ '#577590',  # Slipping
+ '#577590',  # Slipping q4
+ '#277da1',  # Lost Touch
+ '#277da1',  # Lost Touch q4
+ '#749a7f',  # Not previously purchased q1
+ '#f9c74f',  # Affluent q1
+ '#f3722c',  # Faithful q1
+ '#277da1',  # Lost Touch q1
+ '#90be6d',  # Loyal Purchaser q1
+ '#f94144',  # New Customer q1
+ '#577590',  # Slipping q1
+ '#58b0d6',  # Top Tier q1
+ '#819096',  # Dropped Outside Timeframe
+ '#819096',  # Dropped Outside Timeframe q1
+ '#f94144',  # New Customer q2
+ '#f9c74f',  # Affluent q2
+ '#58b0d6',  # Top Tier q2
+ '#f3722c',  # Faithful q2
+ '#90be6d',  # Loyal Purchaser q2
+ '#577590',  # Slipping q2
+ '#277da1',  # Lost Touch q2
+ '#819096'   # Drop off
+]
 
 color_dict_link = df['link_colour'].tolist()
 
