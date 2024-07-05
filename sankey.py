@@ -17,36 +17,20 @@ color_dict = ['#f94144',  # New Customer
  '#f94144',  # New Customer q4
  '#749a7f',  # Not Previously purchased
  '#749a7f',  # Not previously purchased q4
- '#58b0d6',  # Top Tier
- '#58b0d6',  # Top Tier q4
- '#f9c74f',  # Affluent
- '#f9c74f',  # Affluent q4
- '#f3722c',  # Faithful
- '#f3722c',  # Faithful q4
- '#90be6d',  # Loyal Purchaser
- '#90be6d',  # Loyal Purchaser q4
  '#577590',  # Slipping
  '#577590',  # Slipping q4
  '#277da1',  # Lost Touch
  '#277da1',  # Lost Touch q4
  '#749a7f',  # Not previously purchased q1
- '#f9c74f',  # Affluent q1
- '#f3722c',  # Faithful q1
  '#277da1',  # Lost Touch q1
- '#90be6d',  # Loyal Purchaser q1
  '#f94144',  # New Customer q1
  '#577590',  # Slipping q1
- '#58b0d6',  # Top Tier q1
  '#819096',  # Dropped Outside Timeframe
  '#819096',  # Dropped Outside Timeframe q1
  '#f94144',  # New Customer q2
- '#f9c74f',  # Affluent q2
- '#58b0d6',  # Top Tier q2
- '#f3722c',  # Faithful q2
- '#90be6d',  # Loyal Purchaser q2
- '#577590',  # Slipping q2
  '#277da1',  # Lost Touch q2
- '#819096'   # Drop off
+ '#819096',  # Drop off
+ '#577590'  # Slipping q2             
 ]
 
 color_dict_link = df['link_colour'].tolist()
@@ -102,14 +86,34 @@ for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","
           )
 st.plotly_chart(fig, use_container_width=True)
 #sankey 2
-df2= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/minor_flows_q1.csv')
+df2= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/2024_july_minor_sankey.csv')
 unique_source_target2 = list(pd.unique(df2[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target2)}
 df2['Source'] = df2['Source'].map(mapping_dict)
 df2['Target'] = df2['Target'].map(mapping_dict)
 links_dict2 = df2.to_dict(orient='list')
 
-colours2 =['#58B0D6','#58B0D6','#F9C74F','#F9C74F','#F3722C','#F3722C','#90BE6D','#90BE6D','#58B0D6','#577590','#577590','#F9C74F','#F3722C','#90BE6D']
+colours2 = [
+ '#58b0d6',  # Top Tier
+ '#58b0d6',  # Top Tier q4
+ '#f9c74f',  # Affluent
+ '#f9c74f',  # Affluent q4
+ '#f3722c',  # Faithful
+ '#f3722c',  # Faithful q4
+ '#90be6d',  # Loyal Purchaser
+ '#90be6d',  # Loyal Purchaser q4
+ '#f9c74f',  # Affluent q1
+ '#f3722c',  # Faithful q1
+ '#90be6d',  # Loyal Purchaser q1
+ '#58b0d6',  # Top Tier q1
+'#577590',  # Slipping q4
+ '#577590',  # Slipping q1
+ '#58b0d6',  # Top Tier q2
+ '#f3722c',  # Faithful q2
+  '#f9c74f',  # Affluent q2
+ '#90be6d',  # Loyal Purchaser q2
+ '#577590'  # Slipping q2
+]
 link_colours_minor = df2['link_colour'].to_list()
 
 #Sankey Diagram Code
