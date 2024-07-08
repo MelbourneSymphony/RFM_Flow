@@ -14,7 +14,6 @@ Faithful,Slipping q4,397,"rgba(243,114,44,0.4)",#F3722C
 Faithful q4,Faithful q1,1037,"rgba(243,114,44,0.4)",#F3722C
 Faithful q4,Affluent q1,1033,"rgba(243,114,44,0.4)",#F3722C
 Faithful q4,Slipping q1,469,"rgba(243,114,44,0.4)",#F3722C
-Faithful q4,Top Tier q1,580,"rgba(243,114,44,0.4)",#F3722C
 Loyal Purchaser,Slipping q4,50,"rgba(144, 190, 109,0.4)",#90BE6D
 Loyal Purchaser,Affluent q4,555,"rgba(144, 190, 109,0.4)",#90BE6D
 Loyal Purchaser,Top Tier q4,41,"rgba(144, 190, 109,0.4)",#90BE6D
@@ -38,5 +37,4 @@ Loyal Purchaser q1,Top Tier q2,30,"rgba(144, 190, 109,0.4)",#90BE6D
 Loyal Purchaser q1,Slipping q2,151,"rgba(144, 190, 109,0.4)",#90BE6D
 Loyal Purchaser q1,Affluent q2,37,"rgba(144, 190, 109,0.4)",#90BE6D
 Top Tier q1,Top Tier q2,436,"rgba(88,176,214,0.4)",#58B0D6
-Top Tier q1,Affluent q2,748,"rgba(88,176,214,0.4)",#58B0D6
 Top Tier q1,Slipping q2,47,"rgba(88,176,214,0.4)",#58B0D6
