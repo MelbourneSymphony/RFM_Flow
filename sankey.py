@@ -40,7 +40,7 @@ color_dict_link = df['link_colour'].tolist()
 #First Sankey
 fig = go.Figure(data=[go.Sankey(
     node = dict(
-     align='right',
+     align='center',
       pad = 20,
       thickness = 20,
       line = dict(color = "black", width = 0.5),
