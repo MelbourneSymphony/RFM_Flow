@@ -120,6 +120,7 @@ link_colours_minor = df2['link_colour'].to_list()
 #Sankey Diagram Code
 fig2 = go.Figure(data=[go.Sankey(
     node = dict(
+     align='center',
       pad = 15,
       thickness = 20,
       line = dict(color = "black", width = 0.5),
