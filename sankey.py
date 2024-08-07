@@ -166,4 +166,4 @@ for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","
           )
 st.plotly_chart(fig2, use_container_width=True)
 
-st.write("to go back to the main dashboard click [here](https://rfmlabels-t7qm6v74os.streamlit.app/)")
+st.write("to go back to the main dashboard click [here](https://mso-rfmscatter.streamlit.app/)")
