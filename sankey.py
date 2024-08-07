@@ -4,7 +4,6 @@ import plotly.graph_objects as go
 
 
 st.set_page_config(layout="centered")
-st.set_option('deprecation.showPyplotGlobalUse', True)
 st.title("MSO RFM Segmentation Flows")
 
 df= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/2024_july_major_sankey.csv')
