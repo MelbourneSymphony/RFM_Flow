@@ -1,0 +1,55 @@
+Source,Target,values,link_colour,source_colour
+Top Tier,Top Tier q4,235,"rgba(88,176,214,0.4)",#58B0D6
+Top Tier q4,Top Tier q1,409,"rgba(88,176,214,0.4)",#58B0D6
+Affluent,Slipping q4,7,"rgba(249,199,79,0.4)",#F9C74F
+Affluent,Top Tier q4,128,"rgba(249,199,79,0.4)",#F9C74F
+Affluent,Affluent q4,385,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q4,Top Tier q1,9,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q4,Slipping q1,1,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q4,Affluent q1,1168,"rgba(249,199,79,0.4)",#F9C74F
+Faithful,Affluent q4,157,"rgba(243,114,44,0.4)",#F3722C
+Faithful,Loyal Purchaser q4,75,"rgba(243,114,44,0.4)",#F3722C
+Faithful,Faithful q4,2322,"rgba(243,114,44,0.4)",#F3722C
+Faithful,Slipping q4,397,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Faithful q1,1037,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Affluent q1,1033,"rgba(243,114,44,0.4)",#F3722C
+Faithful q4,Slipping q1,469,"rgba(243,114,44,0.4)",#F3722C
+Loyal Purchaser,Slipping q4,50,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Affluent q4,555,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Top Tier q4,41,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Loyal Purchaser q4,298,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser,Faithful q4,69,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Top Tier q1,57,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Slipping q1,37,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Affluent q1,37,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q4,Loyal Purchaser q1,317,"rgba(144, 190, 109,0.4)",#90BE6D
+Affluent q1,Top Tier q2,31,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q1,Faithful q2,250,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q1,Affluent q2,2907,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q1,Loyal Purchaser q2,32,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q1,Slipping q2,341,"rgba(249,199,79,0.4)",#F9C74F
+Faithful q1,Slipping q2,497,"rgba(243,114,44,0.4)",#F3722C
+Faithful q1,Affluent q2,83,"rgba(243,114,44,0.4)",#F3722C
+Faithful q1,Faithful q2,837,"rgba(243,114,44,0.4)",#F3722C
+Faithful q1,Top Tier q2,3,"rgba(243,114,44,0.4)",#F3722C
+Loyal Purchaser q1,Loyal Purchaser q2,108,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q1,Top Tier q2,30,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q1,Slipping q2,151,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q1,Affluent q2,37,"rgba(144, 190, 109,0.4)",#90BE6D
+Top Tier q1,Top Tier q2,436,"rgba(88,176,214,0.4)",#58B0D6
+Top Tier q1,Slipping q2,47,"rgba(88,176,214,0.4)",#58B0D6
+Affluent q2,Top Tier q3,154,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q2,Slipping q3,450,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q2,Faithful q3,105,"rgba(249,199,79,0.4)",#F9C74F
+Affluent q2,Affluent q3,2100,"rgba(249,199,79,0.4)",#F9C74F
+Faithful q2,Affluent q3,106,"rgba(243,114,44,0.4)",#F3722C
+Faithful q2,Slipping q3,188,"rgba(243,114,44,0.4)",#F3722C
+Faithful q2,Faithful q3,856,"rgba(243,114,44,0.4)",#F3722C
+Loyal Purchaser q2,Faithful q3,20,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q2,Top Tier q3,1,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q2,Slipping q3,67,"rgba(144, 190, 109,0.4)",#90BE6D
+Loyal Purchaser q2,Affluent q3,53,"rgba(144, 190, 109,0.4)",#90BE6D
+Top Tier q2,Affluent q3,63,"rgba(88,176,214,0.4)",#58B0D6
+Top Tier q2,Top Tier q3,145,"rgba(88,176,214,0.4)",#58B0D6
+Top Tier q2,Slipping q3,280,"rgba(88,176,214,0.4)",#58B0D6
+Top Tier q2,Faithful q3,18,"rgba(88,176,214,0.4)",#58B0D6

@@ -1,0 +1,35 @@
+Source,Target,values,link_colour,source_colour
+New Customer,New Customer q4,20309,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,New Customer q1,30598,"rgba(249,65,68,0.4)",#F94144
+New Customer q4,Slipping q1,15241,"rgba(249,65,68,0.4)",#F94144
+Not Previously purchased,New Customer q4,25112,"rgba(116,154,127,0.4)",#749A7F
+Not previously purchased q4,New Customer q1,12601,"rgba(116,154,127,0.4)",#749A7F
+Slipping,Slipping q4,17051,"rgba(87, 117, 144,0.4)",#577590
+Slipping,New Customer q4,906,"rgba(87, 117, 144,0.4)",#577590
+Slipping,Lost Touch q4,180,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,Slipping q1,23149,"rgba(87, 117, 144,0.4)",#577590
+Slipping q4,New Customer q1,1242,"rgba(87, 117, 144,0.4)",#577590
+Lost Touch,Lost Touch q4,35738,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,Dropped Outside Timeframe,8940,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch,New Customer q4,990,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Dropped Outside Timeframe q1,15266,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,Lost Touch q1,20483,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q4,New Customer q1,676,"rgba(39, 125, 161,0.4)",#277DA1
+Not previously purchased q1,New Customer q2,8977,"rgba(116,154,127,0.4)",#749A7F
+Lost Touch q1,New Customer q2,398,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q1,Lost Touch q2,13456,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q1,Drop off,9129,"rgba(39, 125, 161,0.4)",#277DA1
+New Customer q1,New Customer q2,34879,"rgba(249,65,68,0.4)",#F94144
+New Customer q1,Slipping q2,10096,"rgba(249,65,68,0.4)",#F94144
+Slipping q1,Slipping q2,34421,"rgba(87, 117, 144,0.4)",#577590
+Slipping q1,New Customer q2,1695,"rgba(87, 117, 144,0.4)",#577590
+Slipping q1,Lost Touch q2,6693,"rgba(87, 117, 144,0.4)",#577590
+Not previously purchased q2,New Customer q3,10736,"rgba(116,154,127,0.4)",#749A7F
+Lost Touch q2,New Customer q3,442,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q2,Lost Touch q3,7960,"rgba(39, 125, 161,0.4)",#277DA1
+Lost Touch q2,Drop off q3,12038,"rgba(39, 125, 161,0.4)",#277DA1
+New Customer q2,New Customer q3,33685,"rgba(249,65,68,0.4)",#F94144
+New Customer q2,Slipping q3,12085,"rgba(249,65,68,0.4)",#F94144
+Slipping q2,New Customer q3,1926,"rgba(87, 117, 144,0.4)",#577590
+Slipping q2,Slipping q3,43099,"rgba(87, 117, 144,0.4)",#577590
+Slipping q2,Lost Touch q3,799,"rgba(87, 117, 144,0.4)",#577590
