@@ -24,12 +24,16 @@ color_dict = ['#f94144',  # New Customer
  '#277da1',  # Lost Touch q1
  '#f94144',  # New Customer q1
  '#577590',  # Slipping q1
+ '#749a7f',  # Not previously purchased q2
+ '#277da1',  # Lost Touch q2
+ '#f94144',  # New Customer q2
  '#819096',  # Dropped Outside Timeframe
  '#819096',  # Dropped Outside Timeframe q1
- '#f94144',  # New Customer q2
- '#277da1',  # Lost Touch q2
- '#819096',  # Drop off
- '#577590'  # Slipping q2                       
+ '#819096',  # Dropped Outside Timeframe  q2             
+ '#f94144',  # New Customer q3
+ '#277da1',  # Lost Touch q3  
+ '#819096',  # Dropped Outside Timeframe  q3
+ '#577590',  # Slipping q3             
 ]
 
 color_dict_link = df['link_colour'].tolist()
