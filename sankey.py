@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 st.set_page_config(layout="centered")
 st.title("MSO RFM Segmentation Flows")
 
-df= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/2024_july_major_sankey.csv')
+df= pd.read_csv('https://raw.githubusercontent.com/MelbourneSymphony/RFM_Flow/refs/heads/main/2024_nov_major_sankey.csv')
 unique_source_target = list(pd.unique(df[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target)}
 df['Source'] = df['Source'].map(mapping_dict)
@@ -29,7 +29,7 @@ color_dict = ['#f94144',  # New Customer
  '#f94144',  # New Customer q2
  '#277da1',  # Lost Touch q2
  '#819096',  # Drop off
- '#577590'  # Slipping q2             
+ '#577590'  # Slipping q2                       
 ]
 
 color_dict_link = df['link_colour'].tolist()
@@ -68,7 +68,7 @@ fig.update_layout(title_text="RFM Customer Flow", font_size=10,width=1000, heigh
   'visible': False,  # numbers below
   }, plot_bgcolor='rgba(0,0,0,0)')
 
-for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","July 2024"]):
+for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","July 2024","Nov 2024"]):
     fig.add_annotation(
           x=x_coordinate,#Plotly recognizes 0-5 to be the x range.
 
@@ -86,7 +86,7 @@ for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","
           )
 st.plotly_chart(fig, use_container_width=True)
 #sankey 2
-df2= pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_FLOW/main/2024_july_minor_sankey.csv')
+df2= pd.read_csv('https://raw.githubusercontent.com/MelbourneSymphony/RFM_Flow/refs/heads/main/2024_nov_minor_sankey.csv')
 unique_source_target2 = list(pd.unique(df2[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target2)}
 df2['Source'] = df2['Source'].map(mapping_dict)
@@ -148,7 +148,7 @@ fig2.update_layout(title_text="RFM Customer Minor Flow", font_size=10,width=1000
   'visible': False,  # numbers below
   }, plot_bgcolor='rgba(0,0,0,0)')
 
-for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","July 2024"]):
+for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","July 2024","Nov 2024"]):
     fig2.add_annotation(
           x=x_coordinate,#Plotly recognizes 0-5 to be the x range.
 
