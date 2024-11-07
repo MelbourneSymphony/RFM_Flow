@@ -111,6 +111,7 @@ colours2 = [
  '#f3722c',  # Faithful q1
  '#90be6d',  # Loyal Purchaser q1
  '#58b0d6',  # Top Tier q1
+ '#f9c74f',  # Affluent q2
  '#f3722c',  # Faithful q2
  '#90be6d',  # Loyal Purchaser q2
  '#58b0d6',  # Top Tier q2
@@ -119,8 +120,8 @@ colours2 = [
  '#577590',  # Slipping q2
  '#58b0d6',  # Top Tier q3
  '#577590',  # Slipping q3
- '#f3722c',  # Faithful q2
- '#f9c74f'  # Affluent q2
+ '#f3722c',  # Faithful q3
+ '#f9c74f'  # Affluent q3
 ]
 link_colours_minor = df2['link_colour'].to_list()
 
