@@ -116,9 +116,9 @@ colours2 = [
  '#58b0d6',  # Top Tier q2
  '#577590',  # Slipping q4
  '#577590',  # Slipping q1
- '#577590'  # Slipping q2
+ '#577590',  # Slipping q2
  '#58b0d6',  # Top Tier q3
- '#577590'  # Slipping q3
+ '#577590',  # Slipping q3
  '#f3722c',  # Faithful q2
  '#f9c74f'  # Affluent q2
 ]
