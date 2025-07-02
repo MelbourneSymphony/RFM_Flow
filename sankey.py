@@ -96,7 +96,7 @@ for x_coordinate, column_name in enumerate(["Aug 2023","Nov 2023","April 2024","
           )
 st.plotly_chart(fig, use_container_width=True)
 #sankey 2
-df2= pd.read_csv('https://raw.githubusercontent.com/MelbourneSymphony/RFM_Flow/refs/heads/main/2024_nov_minor_sankey.csv')
+df2= pd.read_csv('https://raw.githubusercontent.com/MelbourneSymphony/RFM_Flow/refs/heads/main/2025_july_minor_sankey.csv')
 unique_source_target2 = list(pd.unique(df2[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target2)}
 df2['Source'] = df2['Source'].map(mapping_dict)
