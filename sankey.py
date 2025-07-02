@@ -126,6 +126,7 @@ colours2 = [
  '#577590',  # Slipping q4
  '#577590',  # Slipping q1
  '#577590',  # Slipping q2
+ '#577590',  # Slipping q3
  '#58b0d6',  # Top Tier q5
  '#577590',  # Slipping q5
  '#f3722c',  # Faithful q5
