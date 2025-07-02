@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 st.set_page_config(layout="centered")
 st.title("MSO RFM Segmentation Flows")
 
-df= pd.read_csv('https://raw.githubusercontent.com/MelbourneSymphony/RFM_Flow/refs/heads/main/2024_nov_major_sankey.csv')
+df= pd.read_csv('https://raw.githubusercontent.com/MelbourneSymphony/RFM_Flow/refs/heads/main/2025_july_major_sankey.csv')
 unique_source_target = list(pd.unique(df[['Source', 'Target']].values.ravel('K')))
 mapping_dict = {k: v for v, k in enumerate(unique_source_target)}
 df['Source'] = df['Source'].map(mapping_dict)
